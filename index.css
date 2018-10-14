@@ -1,0 +1,98 @@
+body {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+h1 {
+  font-family: 'Bubbler One', sans-serif;
+}
+
+h2, h3, p, a {
+  font-family: 'Gafata', sans-serif;
+
+}
+
+.navbar{
+  background: black;
+  color: white;
+  font-size: x-large;
+}
+
+#about{
+  padding-top: 3%;
+}
+
+#services {
+  padding-top: 16%;
+  padding-bottom: 14%;
+}
+
+#portfolio{
+  padding-top: 16%;
+  padding-bottom: 18%;
+}
+#portfolio a{
+  font-size: 21px;
+  color: white;
+}
+
+#portfolio a:hover{
+  color: #c69ff9;
+}
+
+#contact {
+  padding-top: 4%;
+  padding-bottom: 20%;
+}
+
+#contact p{
+  font-size: 30px;
+}
+
+.form-control{
+  font-size: 20px;
+}
+
+.button {
+  background-color: black;
+  border: 2px solid #c69ff9;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  padding: 14px 36px;
+  float: right;
+}
+
+.button:hover{
+  background-color: #c69ff9;
+  color: black;
+}
+
+.footer p {
+  font-size: 18px;
+  text-align: center;
+  padding: 1%;
+  font-family: 'Marck Script', cursive;
+  color: white;
+  border-top: 1px solid white;
+}
+
+
+.jumbotron {
+  color: white;
+  background-color: black;
+  padding: 0;
+}
+
+.glyphicon {
+  color: #c69ff9;
+}
+
+@media only screen and (max-width: 1400px){
+  #about{
+    padding-top: 10%;
+  }
+}
+
+
+
